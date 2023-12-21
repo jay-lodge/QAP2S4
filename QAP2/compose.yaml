@@ -1,0 +1,8 @@
+services:
+  services:
+    QAP2S4:
+      image: nginx:latest
+      ports:
+        - "8080:8080
+      envroment:
+        - jdbc:mysql://localhost:3306/qap2
